@@ -82,18 +82,20 @@ nav > ul > li {
   font-weight: 600;
   font-size: xx-large;
 }
-
-.main-text > div > button {
-  margin-top: 1rem;
+.main-text > div {
+  margin-top: 2rem;
+}
+.main-text > div > a {
   padding: 8px 12px;
   border: none;
   background-color: #a37d2d;
   color: white;
   border-radius: 5px;
+  font-size: small;
   cursor: pointer;
 }
 
-.main-text > div > button:hover {
+.main-text > div > a:hover {
   background-color: #7d590e;
 }
 
@@ -198,6 +200,7 @@ nav > ul > li {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+  font-size: small;
 }
 
 .about-btn:hover {
