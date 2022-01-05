@@ -1,0 +1,96 @@
+#main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 2rem;
+}
+
+.image {
+  max-width: 500px;
+  max-height: 500px;
+
+  border-radius: 10px;
+}
+
+.details {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding: 1rem;
+
+  justify-content: space-evenly;
+}
+
+#name {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+}
+
+#price {
+  font-size: 30px;
+  font-weight: 700;
+  color: #a37d2d;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.plusBtn {
+  margin-right: 1rem;
+}
+
+.minusBtn {
+  margin-left: 1rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.roundBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(207, 207, 207);
+  color: rgb(87, 87, 87);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+.roundBtn:hover {
+  transform: scale(1.05);
+  background-color: rgb(131, 131, 131);
+}
+
+.darkBtn {
+  padding: 16px 16px;
+  width: 300px;
+
+  border: none;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+.darkBtn:hover {
+  background-color: rgb(37, 37, 37);
+  transform: scale(1.05);
+}

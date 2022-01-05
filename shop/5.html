@@ -1,15 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta chars et="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Lorem</title>
+    <title>Lorem - Shop</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="/images/happy.png" type="image/icon type" />
+    <link rel="icon" href="../images/happy.png" type="image/icon type" />
 
-    <link rel="stylesheet" href="./styles/home.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/item.css" />
+    <link rel="stylesheet" href="../styles/shop.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -50,92 +52,28 @@
       </nav>
     </div>
 
-    <section class="main">
-      <img src="./images/chair.png" alt="Chair" width="40%" />
-      <div class="main-text">
-        <span
-          >Let's make your<br />
-          home a celebration<br />
-          of you!</span
-        >
-        <div>
-          <a href="./shop.html" class="grow">EXPLORE THE SHOP</a>
+    <div id="main">
+      <img
+        class="image"
+        src="https://ii2.pepperfry.com/media/catalog/product/p/e/494x544/pearl-gold-floral-abstract--by-the-shining-rays-pearl-gold-floral-abstract--by-the-shining-rays-63fvib.jpg"
+        alt="Iron Decorative Flower Wall Art In Grey"
+      />
+      <div class="details">
+        <span id="name">Iron Decorative Flower Wall Art In Grey</span>
+        <span id="price">&#8377; 4729</span>
+        <div class="quantity">
+          <div id="plusBtn" class="roundBtn plusBtn">
+            <button id="plus" class="btn">+</button>
+          </div>
+          <span id="qty"></span>
+          <div id="minusBtn" class="roundBtn minusBtn">
+            <button id="minus" class="btn">-</button>
+          </div>
         </div>
+        <button class="darkBtn">Add to Cart</button>
+        <button class="darkBtn">Buy Now</button>
       </div>
-    </section>
-
-    <section class="split">
-      <div class="split-up">
-        <div class="split-div">
-          <span class="title align-right">
-            Lorem is not your typical Home Store
-          </span>
-          <span class="text align-right">
-            Our focus is on creating a space that exudes your spirit. Through
-            design ideation and creative pieces, we want to help you create and
-            enchance your environment.
-          </span>
-        </div>
-        <img class="split-img img-1" src="./images/vase.jpg" alt="vase" />
-      </div>
-      <div class="split-down">
-        <img class="split-img img-2" src="./images/globe.jpg" alt="globe" />
-        <div class="split-div">
-          <span class="title align-left">
-            Our Store in Atlantis, Now Open
-          </span>
-          <span class="text align-left">
-            Come into our store and brainstorm ideas, find creative pieces and
-            use Lorem as a resource for inspiration.
-          </span>
-        </div>
-      </div>
-    </section>
-
-    <section class="about">
-      <div class="wrapper">
-        <img class="about-img" src="./images/bookstore.jpg" alt="bookstore" />
-        <div class="about-text">
-          <span
-            >We believe that it is important to live in a space that makes you
-            feel whole. Your home should be an expression of you and anyone
-            entering your space should understand something special about you by
-            the feel they absorb in your space. More importantly, it should be a
-            space that allows you to rest and re-energize yourself for all of
-            the chaos that life creates.
-          </span>
-          <span style="font-style: italic"
-            >"LOREM started in 1969 with a dash of business skills, a splash of
-            hope, a little prayer and a lot of passion, Pasque came to
-            life."</span
-          >
-          <a href="./about.html" class="about-btn grow">ABOUT LOREM</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="vmv">
-      <div class="card">
-        <span class="card-title">Vison</span>
-        <span class="card-text"
-          >Your design partner bringing real living resources that energize your
-          lifestyle.</span
-        >
-      </div>
-      <div class="card">
-        <span class="card-title">Mission</span>
-        <span class="card-text"
-          >Engaging your spirit through creative inspiration and thoughtful
-          pieces for the comfort of your home.</span
-        >
-      </div>
-      <div class="card">
-        <span class="card-title">Values</span>
-        <span class="card-text"
-          >Integrity Family Faith Creativity Passion Community</span
-        >
-      </div>
-    </section>
+    </div>
 
     <section class="footer">
       <span class="logo">LOREM</span>
@@ -179,5 +117,7 @@
         </div>
       </div>
     </section>
+
+    <script src="../src/item.js"></script>
   </body>
 </html>

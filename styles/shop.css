@@ -84,10 +84,11 @@ hr {
 
 .grid-item {
   margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
   font-size: smaller;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 8px;
   box-shadow: 0px 1px 2px #888888;
   transition: all 150ms ease-out;
@@ -97,8 +98,16 @@ hr {
   transform: scale(1.02);
 }
 
-.grid-item > img {
+/* .grid-item > a {
+  display: flex;
+  flex-direction: column;
+} */
+
+.item-img {
   border-radius: 10px;
+
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .item-name {
