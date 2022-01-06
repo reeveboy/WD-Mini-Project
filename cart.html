@@ -3,15 +3,13 @@
   <head>
     <meta chars et="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Lorem - Shop</title>
+    <title>Your Cart</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="../images/happy.png" type="image/icon type" />
-
-    <link rel="stylesheet" href="../styles/global.css" />
-    <link rel="stylesheet" href="../styles/item.css" />
-    <link rel="stylesheet" href="../styles/shop.css" />
+    <link rel="icon" href="/images/happy.png" type="image/icon type" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/cart.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -54,29 +52,9 @@
       </nav>
     </div>
 
-    <div id="main">
-      <img
-        class="image"
-        src="https://ii3.pepperfry.com/media/catalog/product/m/u/494x544/multicolor-ceramic-nacre-mother-of-pearl-decorative-plate-showpiece-by-kolorobia-multicolor-ceramic--ql8gy9.jpg"
-        alt="Multicolor Ceramic Nacre Mother Of Pearl Decorative Plate Showpiece"
-      />
-      <div class="details">
-        <span id="name"
-          >Multicolor Ceramic Nacre Mother Of Pearl Decorative Plate
-          Showpiece</span
-        >
-        <span id="price">&#8377; 1099</span>
-        <div class="quantity">
-          <div id="plusBtn" class="roundBtn plusBtn">
-            <button id="plus" class="btn">+</button>
-          </div>
-          <span id="qty"></span>
-          <div id="minusBtn" class="roundBtn minusBtn">
-            <button id="minus" class="btn">-</button>
-          </div>
-        </div>
-        <button class="darkBtn">Add to Cart</button>
-      </div>
+    <div class="main">
+      <span class="title">Your Cart</span>
+      <div id="cart-items"></div>
     </div>
 
     <section class="footer">
@@ -122,6 +100,6 @@
       </div>
     </section>
 
-    <script type="module" src="../src/item.js"></script>
+    <script src="/src/cart.js"></script>
   </body>
 </html>

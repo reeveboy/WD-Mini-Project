@@ -48,18 +48,20 @@
             </svg>
           </li>
           <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-cart grow"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
-              />
-            </svg>
+            <a href="/cart.html">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-cart grow"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                />
+              </svg>
+            </a>
           </li>
         </ul>
       </nav>
@@ -68,18 +70,40 @@
     <section class="main">
       <div class="sidebar">
         <div>
-          <span style="font-size: medium; color: gray">Browse by Category</span>
+          <span style="font-size: large; font-weight: 500"
+            >Browse by Category</span
+          >
         </div>
-        <span style="font-weight: 500; font-size: large">All Itmes</span>
-        <!-- <div>
-          <span style="font-size: medium">Accessories</span>
-          <br />
-          <span style="font-size: medium">Art</span>
-          <br />
-          <span style="font-size: medium">Books</span>
-        </div> -->
+        <div class="filters">
+          <span id="option1" class="filter">All Itmes</span>
+          <span id="option2" class="filter">Clocks</span>
+          <span id="option3" class="filter">Vases</span>
+          <span id="option4" class="filter">Paintings</span>
+          <span id="option5" class="filter">Lights</span>
+          <span id="option6" class="filter">Wall Deco</span>
+          <span id="option7" class="filter">Desk Deco</span>
+        </div>
         <hr />
-        <span style="font-weight: 500; font-size: large">Price Range</span>
+        <br />
+        <div class="collapse">
+          <button class="collapsible">Price Range</button>
+          <div class="content">
+            <form class="form">
+              <div class="form-div">
+                <div class="priceSelector">
+                  <span>Min Price</span>
+                  <input id="min-price" type="number" />
+                </div>
+                <span>-</span>
+                <div class="priceSelector">
+                  <span>Max Price</span>
+                  <input id="max-price" type="number" />
+                </div>
+              </div>
+              <button id="price-btn" type="submit">Apply</button>
+            </form>
+          </div>
+        </div>
         <hr />
         <span style="font-weight: 500; font-size: large">How to get it</span>
         <hr />
@@ -87,9 +111,9 @@
       </div>
       <div class="main-section">
         <div class="grid-up">
-          <span>Showing 20 results</span>
+          <span id="number-results"></span>
           <form>
-            <select name="filter" id="filter">
+            <select name="filter" id="sort">
               <option selected value="Popularity">Popularity</option>
               <option value="Price: Asscending">Price: Asscending</option>
               <option value="Price: Descending">Price: Descending</option>

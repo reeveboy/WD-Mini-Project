@@ -1,0 +1,160 @@
+.nav-wrapper {
+  width: 100%;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.logo {
+  color: #7d590e;
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+nav > ul {
+  display: flex;
+}
+
+nav > ul > li {
+  margin-left: 2rem;
+}
+
+.footer {
+  border-top: 1px solid rgb(114, 114, 114);
+  padding: 1em;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links > ul {
+  display: flex;
+}
+
+.footer-links > ul > li {
+  margin-right: 2rem;
+}
+
+.social > a > svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+}
+.main {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+.item {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-gap: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details > * {
+  margin-bottom: 8px;
+}
+
+.item > img {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+
+  border-radius: 5px;
+}
+
+.name {
+  color: rgb(61, 61, 61);
+  font-size: larger;
+  font-weight: 500;
+}
+
+.rate {
+  font-size: large;
+  color: #a37d2d;
+}
+
+.price {
+  font-size: large;
+  font-weight: 500;
+  color: #a37d2d;
+}
+
+.quantity {
+  font-size: large;
+}
+
+.final {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sub-total {
+  margin-top: 1rem;
+  font-size: larger;
+  font-weight: 600;
+  color: #a37d2d;
+}
+
+.darkBtn {
+  margin-top: 1rem;
+  padding: 16px 16px;
+  width: 300px;
+
+  font-size: large;
+
+  border: none;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+.darkBtn:hover {
+  background-color: rgb(37, 37, 37);
+  transform: scale(1.05);
+}
+
+.empty {
+  margin-top: 1rem;
+
+  color: rgb(87, 87, 87);
+
+  text-align: center;
+  font-size: larger;
+}

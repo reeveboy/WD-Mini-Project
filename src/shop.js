@@ -5,6 +5,9 @@ const shop = [
     name: "Beige Cane Spiral Ornamental Planter",
     price: 838,
     stock: "In Stock",
+    category: "vases",
+    description:
+      "Fill your space with personality. An unusual design and texture makes our Spiral planter totally unique This planter is made from natural cane. Cane spirals are layered to form this planter. Comes with a removable jute liner making planting and maintenance easy and tidy. It also helps the garden soil in preventing the water from dripping. Accent your orchids and small indoor plants like Succulents, Rubber Plants & Peace Lilies in this beautifully crafted planter giving it an earthy look to your indoor plants It is a all-natural-planter All the materials are compostable Recommended to use indoors only. Avoid over watering. Only water when the soil is completely dry",
   },
   {
     id: 2,
@@ -12,6 +15,9 @@ const shop = [
     name: "Black Cane Tray Set of 3",
     price: 3728,
     stock: "In Stock",
+    category: "kitchen",
+    description:
+      "Bring a smile on the face of your guests by serving them snacks and other refreshments in the beautifully designed serving trays. Made of superior quality material, these trays are durable making them great for both, special occasions as well as regular use. Pick a design that will enhance your serving experience. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 3,
@@ -19,6 +25,9 @@ const shop = [
     name: "Canciana Beige Assam Cane Single Hanging Light Set of 2",
     price: 1240,
     stock: "In Stock",
+    category: "lights",
+    description:
+      "Bring back a charming vintage wicker look to your home for cozy or pulsating indoor gatherings with your friends and family. Our lamp shades are crafted to fit into any space of your home. Perfectly caning weaves for an intricate and exquisite design, made of premium quality selected cane, which is super dried and treated for termite for sturdiness and longevity. This lamp shade provides both cozy or pulsating style with outstanding durability to your interior space. Finished with a gorgeous touch of varnish, these lampshades will uplift the blissful look of your home for years to come.",
   },
   {
     id: 4,
@@ -26,6 +35,9 @@ const shop = [
     name: "Natural Bamboo Wall Light",
     price: 985,
     stock: "In Stock",
+    category: "lights",
+    description:
+      "Reduce the centric focus and draw attention to the rest of the room by installing these Upward wall-mounted lights. Space saving and eye captivating, these lights provides an alluring and soothing brightness giving away an elegant and charming appeal to your home decor. Not only are these lights classy to look at, but also high on efficiency. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds",
   },
   {
     id: 5,
@@ -33,6 +45,9 @@ const shop = [
     name: "Iron Decorative Flower Wall Art In Grey",
     price: 4729,
     stock: "In Stock",
+    category: "wall deco",
+    description:
+      "Add a vibe of creativity and class to your interior to enrich its ambience by installing these amazingly designed Metal Art. This astoundingly designed Metal Art is not only durable or unique looking, but it also beautifies your walls with artistic make & intricate detailing, while creating a unique vibe. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 6,
@@ -40,6 +55,9 @@ const shop = [
     name: "Iron Framed Butterfly Queen Wall Art With LED In Gold",
     price: 2648,
     stock: "In Stock",
+    category: "wall deco",
+    description:
+      "Add a vibe of creativity and class to your interior to enrich its ambience by installing these amazingly designed Metal Art. This astoundingly designed Metal Art is not only durable or unique looking, but it also beautifies your walls with artistic make & intricate detailing, while creating a unique vibe. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 7,
@@ -47,6 +65,8 @@ const shop = [
     name: "Brown Metal Analog Wall Clock",
     price: 1699,
     stock: "In Stock",
+    category: "clocks",
+    description: "TrenDec Metal Wall Decor Clock 18 inch Gold Finish",
   },
   {
     id: 8,
@@ -54,6 +74,9 @@ const shop = [
     name: "Metal Sparrow Art Wall Clock",
     price: 2389,
     stock: "In Stock",
+    category: "clocks",
+    description:
+      "Add oodles of class to your room's wall by picking from our creative range of wall hangings. Beautify your walls with the artistic make, intricate detailing, variety of colours and designs these hangings provide. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 9,
@@ -61,6 +84,9 @@ const shop = [
     name: "Metal Cycle Pen Holder In Copper Table Decor",
     price: 289,
     stock: "In Stock",
+    category: "desk deco",
+    description:
+      "Add oodles of class to your room's wall by picking from our creative range of wall hangings. Beautify your walls with the artistic make, intricate detailing, variety of colours and designs these hangings provide. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 10,
@@ -68,6 +94,9 @@ const shop = [
     name: "Metal Elephant Key Holder",
     price: 708,
     stock: "In Stock",
+    category: "wall deco",
+    description:
+      "Experience style with a perfect blend of utility, by using these products from Pepperfry. Here you will find a fleet of options in terms of designs, colours, dimensions, and textures that will keep you coming back for more. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 11,
@@ -75,6 +104,9 @@ const shop = [
     name: "Metal Round Wall Mirror in Multi colour",
     price: 2780,
     stock: "In Stock",
+    category: "wall deco",
+    description:
+      "Add oodles of class to your room's wall by picking from our creative range of wall hangings. Beautify your walls with the artistic make, intricate detailing, variety of colours and designs these hangings provide. A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 12,
@@ -82,6 +114,9 @@ const shop = [
     name: "Iron and Wood Bicycle",
     price: 559,
     stock: "In Stock",
+    category: "desk deco",
+    description:
+      "A one stop-shop for home decor and furniture, Pepperfry sells a home product every 30 seconds.",
   },
   {
     id: 13,
@@ -89,6 +124,7 @@ const shop = [
     name: "Ceramic Fish Table Lamp in Sea Green",
     price: 899,
     stock: "In Stock",
+    category: "lights",
   },
   {
     id: 14,
@@ -96,6 +132,7 @@ const shop = [
     name: "Stunning Underwater Toughened Glass Wall Painting Flair Glass",
     price: 2119,
     stock: "In Stock",
+    category: "paintings",
   },
   {
     id: 15,
@@ -103,6 +140,7 @@ const shop = [
     name: "Multicolour Resin Exotic Indoor Water Fountain",
     price: 3050,
     stock: "In Stock",
+    category: "desk deco",
   },
   {
     id: 16,
@@ -110,6 +148,7 @@ const shop = [
     name: "Aloha Ceramic (Set of 1) Vase",
     price: 339,
     stock: "In Stock",
+    category: "vases",
   },
   {
     id: 17,
@@ -117,6 +156,7 @@ const shop = [
     name: "Matt White Ceramic Love Bite Large Planter With Wooden Stand",
     price: 2329,
     stock: "In Stock",
+    category: "vases",
   },
   {
     id: 18,
@@ -124,6 +164,7 @@ const shop = [
     name: "Matt Ivory Ceramic Pheonix Medium Planter",
     price: 1699,
     stock: "In Stock",
+    category: "vases",
   },
   {
     id: 19,
@@ -131,6 +172,7 @@ const shop = [
     name: "Multicolor Ceramic Nacre Mother Of Pearl Decorative Plate Showpiece",
     price: 1099,
     stock: "In Stock",
+    category: "desk deco",
   },
   {
     id: 20,
@@ -138,17 +180,59 @@ const shop = [
     name: "Multicolour Turish Delight Decorative Wall Plate",
     price: 738,
     stock: "In Stock",
+    category: "wall deco",
   },
 ];
 
 const itemsDiv = document.getElementById("items");
-const filterElement = document.getElementById("filter");
-let filter = filterElement.selectedOptions[0].value;
+
+const sortElement = document.getElementById("sort");
+let sort = sortElement.selectedOptions[0].value;
+
+const noResults = document.getElementById("number-results");
+
+const filters = document.getElementsByClassName("filter");
+let filterIndex = 1;
+
+let newShop = shop;
+
+const priceBtn = document.getElementById("price-btn");
 
 let items = "";
 
-function onClick() {
-  console.log("click");
+for (let i = 1; i <= filters.length; i++) {
+  const ele = document.getElementById(`option${i}`);
+  ele.onclick = () => {
+    changeFilter(filterIndex, i);
+
+    if (ele.innerText.toLowerCase().startsWith("all")) {
+      newShop = shop;
+    } else {
+      newShop = shop.filter((item) => {
+        if (item.category === ele.innerText.toLowerCase()) {
+          return item;
+        }
+      });
+    }
+
+    showItems();
+  };
+}
+
+function changeFilter(oldIndex, newIndex) {
+  document.getElementById(`option${oldIndex}`).style = "font-weight: 400;";
+  document.getElementById(`option${newIndex}`).style = "font-weight: 500;";
+  filterIndex = newIndex;
+}
+
+function filterItems(sortedShop) {
+  sortedShop.forEach((item) => {
+    const gridItem = makeGridItem(item);
+    items = items + "\n" + gridItem;
+    itemsDiv.innerHTML = items;
+  });
+
+  noResults.innerHTML = `Showing ${sortedShop.length} results`;
 }
 
 function makeGridItem(item) {
@@ -156,65 +240,100 @@ function makeGridItem(item) {
   const gridItem = `
   <a href=${link} class="grid-item" id=${item.id}>
     <img class="item-img" src=${item.img} alt=${item.name} />
-    <span class="item-name">${item.name}</span>
-    <span class="item-price"> &#8377; ${item.price}</span>
-    <span class="item-stock">${item.stock}</span>
+    <div class="item-details">
+      <span class="item-name">${item.name}</span>
+      <span class="item-price"> &#8377; ${item.price}</span>
+      <span class="item-stock">${item.stock}</span>
+    </div>
   </a>
   `;
 
   return gridItem;
 }
 
-filterElement.onchange = () => {
-  filter = filterElement.selectedOptions[0].value;
+function showItems() {
+  sort = sortElement.selectedOptions[0].value;
 
-  if (filter === "Popularity") {
+  if (sort === "Popularity") {
     items = "";
-    const sortedShop = shop.sort((a, b) => {
+    const sortedShop = newShop.sort((a, b) => {
       return a.id - b.id;
     });
 
-    sortedShop.forEach((item) => {
-      const gridItem = makeGridItem(item);
-      items = items + "\n" + gridItem;
-      itemsDiv.innerHTML = items;
-    });
+    filterItems(sortedShop);
   }
 
-  if (filter === "Price: Asscending") {
+  if (sort === "Price: Asscending") {
     items = "";
-    const sortedShop = shop.sort((a, b) => {
+    const sortedShop = newShop.sort((a, b) => {
       return a.price - b.price;
     });
 
-    sortedShop.forEach((item) => {
-      const gridItem = makeGridItem(item);
-      items = items + "\n" + gridItem;
-      itemsDiv.innerHTML = items;
-    });
+    filterItems(sortedShop);
   }
 
-  if (filter === "Price: Descending") {
+  if (sort === "Price: Descending") {
     items = "";
-    const sortedShop = shop.sort((a, b) => {
+    const sortedShop = newShop.sort((a, b) => {
       return b.price - a.price;
     });
 
-    sortedShop.forEach((item) => {
-      const gridItem = makeGridItem(item);
-      items = items + "\n" + gridItem;
-      itemsDiv.innerHTML = items;
-    });
+    filterItems(sortedShop);
   }
+}
+
+sortElement.onchange = () => {
+  showItems();
+};
+
+priceBtn.onclick = (e) => {
+  e.preventDefault();
+
+  const minPrice = parseInt(document.getElementById("min-price").value, 10);
+  const maxPrice = parseInt(document.getElementById("max-price").value, 10);
+
+  if (!isNaN(minPrice)) {
+    const tempShop = newShop.filter((item) => {
+      if (item.price >= minPrice) {
+        return item;
+      }
+    });
+    newShop = tempShop;
+  }
+
+  if (!isNaN(maxPrice)) {
+    const tempShop = newShop.filter((item) => {
+      if (item.price <= maxPrice) {
+        return item;
+      }
+    });
+    newShop = tempShop;
+  }
+  showItems();
 };
 
 // On Page Load
 onload = () => {
   // On Page Load Show Filter By Popularity - Shop
-  shop.forEach((item) => {
-    const gridItem = makeGridItem(item);
-    items = items + "\n" + gridItem;
-  });
-
-  itemsDiv.innerHTML = items;
+  filterItems(newShop);
+  changeFilter(1, 1);
 };
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+
+console.log(JSON.parse(localStorage.getItem("cart")));
+
+// localStorage.clear();
