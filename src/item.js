@@ -23,7 +23,9 @@ minusBtn.onclick = () => {
 };
 
 const path = window.location.pathname.split(".")[0].split("/");
-const itemIndex = path[path.length - 1];
+const itemIndex = parseInt(path[path.length - 1]);
+
+console.log(itemIndex);
 
 addToCartBtn.onclick = () => {
   let cartExists = localStorage.getItem("cart");
@@ -34,15 +36,16 @@ addToCartBtn.onclick = () => {
 
   let cart = JSON.parse(localStorage.getItem("cart"));
 
-  const itemIndex = cart.findIndex((item) => {
+  const index = cart.findIndex((item) => {
     if (item.name === image.getAttribute("alt")) {
       return true;
     }
     return false;
   });
 
-  if (itemIndex === -1 || !cart) {
+  if (index === -1 || !cart) {
     cart.push({
+      id: itemIndex,
       image: image.getAttribute("src"),
       name: image.getAttribute("alt"),
       quantity: parseInt(qty.innerText, 10),
@@ -52,8 +55,8 @@ addToCartBtn.onclick = () => {
         parseInt(price.innerText.split(" ")[1], 10),
     });
   } else {
-    cart[itemIndex].quantity += parseInt(qty.innerText, 10);
-    cart[itemIndex].total +=
+    cart[index].quantity += parseInt(qty.innerText, 10);
+    cart[index].total +=
       parseInt(price.innerText.split(" ")[1], 10) * parseInt(qty.innerText, 10);
   }
 

@@ -1,5 +1,8 @@
 const cart = JSON.parse(localStorage.getItem("cart"));
 const cartItems = document.getElementById("cart-items");
+let emptyCartBtn = null;
+
+console.log(cart);
 
 function makeCartItem(item) {
   const cartItem = `
@@ -10,9 +13,9 @@ function makeCartItem(item) {
       alt=${item.name}
     />
     <div class="details">
-      <span class="name"
+      <a href="/shop/${item.id}.html" class="name"
         >Multicolor Ceramic Nacre Mother Of Pearl Decorative Plate
-        Showpiece</span
+        Showpiece</a
       >
       <span class="rate">Rate: &#8377; ${item.price}</span>
       
@@ -47,11 +50,23 @@ function displayCartItems() {
         <span class="sub-total">Subtotal (${cart.length} items): &#8377; ${subTotal}</span>
       </div>
       <button class="darkBtn">Proceed to Buy</button>
-      
+      <button id="emptyCart" class="redBtn">Empty Cart</button>
     </div>
   `;
 
   cartItems.innerHTML = html;
+
+  emptyCartBtn = document.getElementById("emptyCart");
+
+  emptyCartBtn.onclick = () => {
+    localStorage.clear();
+    cartItems.innerHTML = `
+      <hr />
+      <div class="empty">
+        Your Cart is Empty...
+      </div>
+    `;
+  };
 }
 
 if (cart) {
@@ -64,5 +79,3 @@ if (cart) {
     </div>
   `;
 }
-
-console.log(cart);

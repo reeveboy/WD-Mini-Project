@@ -334,6 +334,6 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-console.log(JSON.parse(localStorage.getItem("cart")));
+// console.log(JSON.parse(localStorage.getItem("cart")));
 
 // localStorage.clear();

@@ -150,6 +150,27 @@ nav > ul > li {
   transform: scale(1.05);
 }
 
+.redBtn {
+  margin-top: 1rem;
+  padding: 16px 16px;
+  width: 300px;
+
+  font-size: large;
+
+  border: none;
+  background-color: #f53b57;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: all 200ms ease-in-out;
+}
+
+.redBtn:hover {
+  background-color: #c42039;
+  transform: scale(1.05);
+}
+
 .empty {
   margin-top: 1rem;
 
