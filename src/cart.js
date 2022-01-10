@@ -14,8 +14,7 @@ function makeCartItem(item) {
     />
     <div class="details">
       <a href="/shop/${item.id}.html" class="name"
-        >Multicolor Ceramic Nacre Mother Of Pearl Decorative Plate
-        Showpiece</a
+        >${item.name}</a
       >
       <span class="rate">Rate: &#8377; ${item.price}</span>
       
