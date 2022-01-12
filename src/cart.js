@@ -2,8 +2,6 @@ const cart = JSON.parse(localStorage.getItem("cart"));
 const cartItems = document.getElementById("cart-items");
 let emptyCartBtn = null;
 
-console.log(cart);
-
 function makeCartItem(item) {
   const cartItem = `
   <hr />
@@ -48,7 +46,7 @@ function displayCartItems() {
       <div>
         <span class="sub-total">Subtotal (${cart.length} items): &#8377; ${subTotal}</span>
       </div>
-      <button class="darkBtn">Proceed to Buy</button>
+      <button id="buyBtn" class="darkBtn">Proceed to Buy</button>
       <button id="emptyCart" class="redBtn">Empty Cart</button>
     </div>
   `;

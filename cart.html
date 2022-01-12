@@ -17,6 +17,41 @@
       href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(() => {
+        $("#buyBtn").click(() => {
+          document.body.innerHTML =
+            `
+          <div class="alert success">
+            <span class="closebtn">&times;</span>  
+            <strong>Yayyy!</strong> Your Items are on the way!
+          </div>
+          ` + document.body.innerHTML;
+
+          localStorage.clear();
+          const cartItems = document.getElementById("cart-items");
+
+          cartItems.innerHTML = `
+            <hr />
+            <div class="empty">
+              Your Cart is Empty...
+            </div>
+          `;
+
+          close = document.getElementsByClassName("closebtn");
+          close[0].onclick = function () {
+            var div = this.parentElement;
+            div.style.opacity = "0";
+            setTimeout(function () {
+              div.style.display = "none";
+            }, 600);
+
+            close[0].parentNode.removeChild(close[i]);
+          };
+        });
+      });
+    </script>
   </head>
   <body>
     <div class="nav-wrapper">

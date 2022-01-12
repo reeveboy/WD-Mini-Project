@@ -238,7 +238,7 @@ function filterItems(sortedShop) {
 function makeGridItem(item) {
   const link = `/shop/${item.id}.html`;
   const gridItem = `
-  <a href=${link} class="grid-item" id=${item.id}>
+  <a href=${link} target="_blank" class="grid-item" id=${item.id}>
     <img class="item-img" src=${item.img} alt=${item.name} />
     <div class="item-details">
       <span class="item-name">${item.name}</span>
