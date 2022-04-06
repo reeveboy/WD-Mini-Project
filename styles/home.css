@@ -159,11 +159,6 @@ nav > ul > li {
   font-weight: 300;
 }
 
-.about {
-  background-color: rgb(224, 224, 224);
-  padding: 2rem;
-  margin-top: 4rem;
-}
 
 .wrapper {
   width: 75%;
@@ -171,6 +166,12 @@ nav > ul > li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.about {
+  background-color: rgb(224, 224, 224);
+  padding: 2rem;
+  margin-top: 4rem;
 }
 
 .about-img {
