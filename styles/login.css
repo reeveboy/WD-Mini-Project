@@ -1,6 +1,10 @@
+body {
+  background-color: rgb(243, 243, 243);
+}
+
 .nav-wrapper {
   width: 100%;
-  background-color: white;
+  background-color: rgb(243, 243, 243);
 }
 
 nav {
@@ -60,6 +64,7 @@ nav > ul > li {
 }
 
 form {
+  width: 320px;
   margin-bottom: 4rem;
 
   display: flex;
@@ -67,9 +72,10 @@ form {
   flex-direction: column;
   justify-content: space-between;
 
+  background-color: rgb(255, 255, 255, 50%);
+
   border-radius: 10px;
-  background-color: rgb(243, 243, 243);
-  padding: 4rem 6rem;
+  padding: 3rem 5rem;
 }
 
 form > * {
@@ -82,12 +88,13 @@ form > * {
 }
 
 .welcome {
-  font-size: small;
+  /* font-size: small; */
   color: rgb(116, 116, 116);
 }
 
 input {
-  padding: 8px 12px;
+  font-size: medium;
+  padding: 10px 12px;
   border-radius: 8px;
   background-color: transparent;
   border: 1px rgb(170, 170, 170) solid;
@@ -114,6 +121,7 @@ input:focus {
 .txtBtn {
   background: none;
   border: none;
+  color: rgb(74, 168, 245);
 }
 
 .txtBtn:hover {
@@ -130,6 +138,7 @@ button:hover {
   border: 1px rgb(170, 170, 170) solid;
   background-color: #a37d2d;
   color: white;
+  font-size: medium;
 }
 .loginBtn:hover {
   background-color: #7d590e;

@@ -2,7 +2,7 @@
   <head>
     <meta chars et="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Lorem - Sign In</title>
+    <title>Lorem - Sign Up</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -64,8 +64,10 @@
 
     <div class="main">
       <form action="">
-        <span class="head">Login</span>
-        <span class="welcome">Welcome back! Please login to your account.</span>
+        <span class="head">Register</span>
+        <span class="welcome"
+          >Glad you're joining us! Please enter your details.</span
+        >
         <input
           name="email"
           type="email"
@@ -78,22 +80,19 @@
           placeholder="enter your password"
           required
         />
-        <div class="sub">
-          <div>
-            <input type="checkbox" name="rememberMe" />
-            <span style="font-size: medium">Remember Me</span>
-          </div>
+        <input
+          name="password"
+          type="password"
+          placeholder="re-enter your password"
+          required
+        />
 
-          <button style="font-size: medium" class="txtBtn">
-            Forgot Password?
-          </button>
-        </div>
-        <button class="loginBtn" type="submit">Sign In</button>
+        <button class="loginBtn" type="submit">Sign Up</button>
 
         <span style="font-size: medium; align-self: flex-end"
-          >New User?
-          <a href="/register.html" class="txtBtn" style="font-size: medium"
-            >Sign Up</a
+          >Already have an account?
+          <a href="/login.html" class="txtBtn" style="font-size: medium"
+            >Sign In</a
           >
         </span>
       </form>
